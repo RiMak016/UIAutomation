@@ -1,0 +1,9 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.terminal.favorites": [
+        {
+            "command": "clean test -DConfigFile=Automation.properties -DenvVariable=\"a2\" -Dcucumber.options=\"--plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm --tags @Sanity\"",
+            "debug": false
+        }
+    ]
+}
